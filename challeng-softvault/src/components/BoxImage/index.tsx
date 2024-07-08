@@ -12,6 +12,10 @@ export function BoxImage({
   icon,
   altImg = 'box',
   customTranslate,
+  customStylePositionIcon = {
+    top: '-28px',
+    left: '179px',
+  },
 }: PropsWithChildren<BoxImageProps>) {
   return (
     <RootBoxImg
@@ -26,7 +30,7 @@ export function BoxImage({
           alt={'icon'}
           width={SIZE_ICON}
           height={SIZE_ICON}
-          style={{ position: 'absolute', top: '-28px', left: '179px' }}
+          style={{ position: 'absolute', ...customStylePositionIcon }}
         />
       )}
       {src.map((src, index) => (

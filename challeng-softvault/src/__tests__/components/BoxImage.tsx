@@ -1,7 +1,7 @@
 import { BoxImage } from '@/components'
 import { DATA } from '@/data'
 import { render } from '@testing-library/react'
-const { box_image } = DATA[2]
+const { box_image } = DATA[1]
 it('should render correctly with given width and height', () => {
   const { getByAltText } = render(
     <BoxImage
@@ -26,7 +26,11 @@ it('should render a images', () => {
     <BoxImage
       width={box_image.size.width}
       height={box_image.size.height}
-      icon={box_image.icon}
+      icon={box_image.icon.src}
+      customStylePositionIcon={{
+        top: box_image.icon.top,
+        left: box_image.icon.left,
+      }}
       src={box_image.images}
       altImg={box_image.alt}
     />,

@@ -1,3 +1,5 @@
+import IconCenter from '@/assets/IconCenter.svg'
+import IconLeft from '@/assets/IconLeft.svg'
 import IconRight from '@/assets/IconRight.svg'
 import VectorCenter from '@/assets/VectorCenter.svg'
 import VectorCenterBackground from '@/assets/VectorCenterBackground.svg'
@@ -13,6 +15,7 @@ export const DATA = [
       size: { height: 223, width: 376 },
       images: [VectorLeftBackground, VectorLeft],
       alt: 'box-image-left',
+      icon: { src: IconLeft, top: '-26px', left: '154px' },
     },
     inside_box: {
       size: { height: HEIGHT_INSIDE_BOX, width: '100%' },
@@ -40,6 +43,7 @@ export const DATA = [
       images: [VectorCenterBackground, VectorCenter],
       alt: 'box-image-center',
       translate: '-14px',
+      icon: { src: IconCenter, top: '-26px', left: '191px' },
     },
     inside_box: {
       size: { height: HEIGHT_INSIDE_BOX, width: '75%' },
@@ -67,7 +71,7 @@ export const DATA = [
     box_image: {
       size: { height: 222, width: 384 },
       images: [VectorRightBackground, VectorRight],
-      icon: IconRight,
+      icon: { src: IconRight, top: '-26px', left: '179px' },
       alt: 'box-image-right',
     },
     inside_box: {

@@ -24,7 +24,11 @@ export default function Home() {
               src={box_image.images}
               altImg={box_image.alt}
               customTranslate={box_image.translate}
-              icon={box_image.icon}
+              icon={box_image.icon.src}
+              customStylePositionIcon={{
+                top: box_image.icon.top,
+                left: box_image.icon.left,
+              }}
             >
               <InsideBoxImg
                 width={inside_box.size.width}

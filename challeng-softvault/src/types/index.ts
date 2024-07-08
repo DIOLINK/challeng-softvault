@@ -18,6 +18,10 @@ export interface BoxImageProps {
   customPadding?: string
   icon?: string
   customTranslate?: string
+  customStylePositionIcon?: {
+    top: string
+    left: string
+  }
 }
 
 export interface RootBoxImageProps
