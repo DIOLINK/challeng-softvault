@@ -33,7 +33,7 @@ export function BoxImage({
         <Image
           key={index}
           src={src}
-          alt={altImg}
+          alt={altImg + index}
           width={width as number}
           height={height as number}
           style={{ position: 'absolute', top: 0 }}

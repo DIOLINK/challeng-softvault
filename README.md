@@ -101,8 +101,8 @@ docker system prune -af --volumes
 ### Unit Testing with Jest
 
 - [x] Set up Jest in the project.
-- [ ] Write unit tests for the components.
-- [ ] Write unit tests for the main application logic.
+- [x] Write unit tests for the components.
+- [x] Write unit tests for the main application logic.
 
 ## Additional Considerations
 
