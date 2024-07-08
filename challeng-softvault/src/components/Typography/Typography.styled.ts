@@ -18,5 +18,6 @@ export const ParagraphElement = styled.p<ParagraphProps>(
     textAlign: 'center',
     width: customWidth ?? 'auto',
     margin: 0,
+    cursor: 'default',
   }),
 )
