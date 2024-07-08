@@ -28,6 +28,10 @@ This example contains everything needed to get a Next.js development and product
 
 It is recommended to commit a lockfile to version control. Although the example will work without one, build errors are more likely to occur when using the latest version of all dependencies. This way, we're always using a known good configuration to develop and run in production.
 
+2. If you want to run Test `cd challeng-softvault`, then run `npm run test:watch` or `yarn test:watch` or `pnpm test:watch`.
+   
+3. If you want to run Test `cd challeng-softvault`, then run `npm run test` or `yarn test` or `pnpm test`.
+
 ## Prerequisites
 
 Install [Docker Desktop](https://docs.docker.com/get-docker) for Mac, Windows, or Linux. Docker Desktop includes Docker Compose as part of the installation.
@@ -114,3 +118,6 @@ docker system prune -af --volumes
 - [x] Upload the code to a GitHub repository.
 - [x] Ensure the repository includes clear instructions on how to run the project and tests.
 
+![Challenge img](./challeng-softvault/public/challeng-img.png "Challenge Done")
+
+![Challenge img](./challeng-softvault/public/challeng.gif "Challenge Done gif")
