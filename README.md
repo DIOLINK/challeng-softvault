@@ -84,7 +84,7 @@ docker system prune -af --volumes
 ### Documentation with Storybook
 
 - [x] Install and configure Storybook.
-- [ ] Create stories for each component.
+- [x] Create stories for each component.
 
 ### Dockerization
 
